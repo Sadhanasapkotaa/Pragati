@@ -1,0 +1,288 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 175 50">
+  <defs>
+    <clipPath id="clip-path">
+      <path d="M38.8,26.8a4.1,4.1,0,0,1-.1.9,7.5,7.5,0,0,1-5.1.6,4.1,4.1,0,0,1-.3-.9C34,27.7,36.6,26.6,38.8,26.8Z" style="fill: none"/>
+    </clipPath>
+    <filter id="luminosity-noclip" x="34.5" y="27.39" width="10.7" height="10.7" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask" x="34.5" y="27.39" width="10.7" height="10.7" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip)">
+        <image width="52" height="52" transform="translate(34.5 27.4) scale(0.21)" xlink:href="data:image/png;base64,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"/>
+      </g>
+    </mask>
+    <clipPath id="clip-path-2">
+      <path d="M17.9,26.8a4.1,4.1,0,0,0,.1.9,7.5,7.5,0,0,0,5.1.6,4.1,4.1,0,0,0,.3-.9C22.7,27.7,20.1,26.6,17.9,26.8Z" style="fill: none"/>
+    </clipPath>
+    <filter id="luminosity-noclip-2" x="11.45" y="27.39" width="10.91" height="10.7" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-2" x="11.45" y="27.39" width="10.91" height="10.7" maskUnits="userSpaceOnUse">
+      <g style="filter: url(#luminosity-noclip-2)">
+        <image width="53" height="52" transform="translate(11.4 27.4) scale(0.21)" xlink:href="data:image/png;base64,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"/>
+      </g>
+    </mask>
+  </defs>
+  <title>Pragati_Logo</title>
+  <g>
+    <g>
+      <path d="M71.9,26.7a.9.9,0,0,1-.8-1.3l.3-.6a.9.9,0,0,1,.8-.4h.2a.9.9,0,0,1,.6.8v.6a.9.9,0,0,1-.9.9Z" style="fill: #e71d88"/>
+      <path d="M72.2,25.3v.6h-.3l.3-.6m0-1.7a1.7,1.7,0,0,0-1.5.9l-.3.6a1.7,1.7,0,0,0,1.5,2.6h.3A1.7,1.7,0,0,0,74,25.9v-.6a1.7,1.7,0,0,0-1.3-1.7Z" style="fill: #572d83"/>
+    </g>
+    <g>
+      <path d="M70.9,34.8a2.6,2.6,0,0,1-2-.8,2.8,2.8,0,0,1-.7-2V13.3a2.8,2.8,0,0,1,.8-2,2.7,2.7,0,0,1,2-.8h7.3A6.5,6.5,0,0,1,82,11.6a8.1,8.1,0,0,1,2.7,2.9,8.7,8.7,0,0,1,0,8.1A8.3,8.3,0,0,1,82,25.6a6.4,6.4,0,0,1-3.6,1.1H73.6V32a2.8,2.8,0,0,1-.7,2A2.6,2.6,0,0,1,70.9,34.8Zm7.5-13.5A.9.9,0,0,0,79,21a3.2,3.2,0,0,0,.8-1.1,3.2,3.2,0,0,0,0-2.7,3.1,3.1,0,0,0-.8-1l-.6-.3H73.6v5.4Z" style="fill: #ff2e8d"/>
+      <path d="M78.3,11.4a5.6,5.6,0,0,1,3.1,1A7.2,7.2,0,0,1,83.8,15a7.5,7.5,0,0,1,.9,3.7,7.5,7.5,0,0,1-.9,3.6,7.4,7.4,0,0,1-2.4,2.6,5.5,5.5,0,0,1-3.1,1H72.7V32a2,2,0,0,1-.5,1.4,1.7,1.7,0,0,1-1.4.6,1.7,1.7,0,0,1-1.3-.6A2,2,0,0,1,69,32V13.3a1.9,1.9,0,0,1,2-2h7.3M72.7,22.2h5.6a1.8,1.8,0,0,0,1.2-.5,4.1,4.1,0,0,0,1-1.3,4.1,4.1,0,0,0-1-4.8,1.8,1.8,0,0,0-1.2-.5H72.7v7.1M78.3,9.6H71a3.7,3.7,0,0,0-3.7,3.7V32a3.7,3.7,0,0,0,1,2.6,3.6,3.6,0,0,0,5.2,0,3.7,3.7,0,0,0,1-2.6V27.6h3.9a7.3,7.3,0,0,0,4.1-1.3,9.1,9.1,0,0,0,2.9-3.2,9.6,9.6,0,0,0,0-9,9,9,0,0,0-2.9-3.2,7.3,7.3,0,0,0-4.1-1.3Zm-3.9,7.2h3.9a2.3,2.3,0,0,1,.5.7,2.3,2.3,0,0,1,0,2,2.4,2.4,0,0,1-.6.8H74.5V16.8Z" style="fill: #572d83"/>
+    </g>
+    <g>
+      <path d="M89.6,34.8a2.7,2.7,0,0,1-2-.8,2.8,2.8,0,0,1-.8-2V18.7a2.8,2.8,0,0,1,.8-2,2.9,2.9,0,0,1,4,0l.4.5,1.1-.8,1.7-.7,1.8-.2a3.3,3.3,0,0,1,2.2.7,2.5,2.5,0,0,1,1,2,2.7,2.7,0,0,1-.8,2.2,2.7,2.7,0,0,1-1.8.7,3.5,3.5,0,0,1-1.5-.3h-.8l-.8.2-.8.6a3.6,3.6,0,0,0-.6,1.2,5.2,5.2,0,0,0-.3,1.7V32a2.8,2.8,0,0,1-.8,2A2.7,2.7,0,0,1,89.6,34.8Z" style="fill: #ff7110"/>
+      <path d="M96.6,16.4a2.5,2.5,0,0,1,1.6.5,1.6,1.6,0,0,1,.7,1.3,1.9,1.9,0,0,1-.5,1.5,1.8,1.8,0,0,1-1.2.5L96,20l-1.1-.2-1.2.3a3.2,3.2,0,0,0-1.1.9,4.5,4.5,0,0,0-.8,1.4,6,6,0,0,0-.3,2V32a1.9,1.9,0,0,1-.5,1.4,2,2,0,0,1-2.8,0,1.9,1.9,0,0,1-.5-1.4V18.7a1.9,1.9,0,0,1,.5-1.4,2,2,0,0,1,2.8,0,1.9,1.9,0,0,1,.5,1.4v.4l.7-.9a5.5,5.5,0,0,1,1.3-1l1.5-.6,1.6-.2m0-1.7-2,.2a7.6,7.6,0,0,0-2,.8l-.5.3a3.7,3.7,0,0,0-5.2.1,3.7,3.7,0,0,0-1,2.6V32a3.7,3.7,0,0,0,1,2.6,3.7,3.7,0,0,0,5.3,0,3.7,3.7,0,0,0,1-2.6V24.3a4.3,4.3,0,0,1,.2-1.4,2.8,2.8,0,0,1,.5-.9l.5-.4h.9a4.4,4.4,0,0,0,1.8.4,3.5,3.5,0,0,0,3.5-3.7,3.3,3.3,0,0,0-1.3-2.6,4.2,4.2,0,0,0-2.7-.9Z" style="fill: #572d83"/>
+    </g>
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <path d="M111.9,35.7h-.4a2.7,2.7,0,0,1-1.9-1.1l-.3-.5h0a8.5,8.5,0,0,1-2.2.8l-1.5.2h-1.1a8.3,8.3,0,0,1-4.3-1.9,8.9,8.9,0,0,1-2.6-3.9,10.8,10.8,0,0,1-.4-5.1A10.9,10.9,0,0,1,99,19.2a9,9,0,0,1,3.6-3,7.9,7.9,0,0,1,3.3-.7h1.2a8.3,8.3,0,0,1,2.7.9l1.7,1.2.5-.5a2.6,2.6,0,0,1,1.7-.6h.4a2.7,2.7,0,0,1,2.4,3.2l-1.9,13.5a2.8,2.8,0,0,1-1.1,1.9,2.7,2.7,0,0,1-1.7.6Zm-5.5-14.9a3.3,3.3,0,0,0-1.5.3,3.9,3.9,0,0,0-1.6,1.4,5.4,5.4,0,0,0-.8,2.3,5.3,5.3,0,0,0,.2,2.4,3.9,3.9,0,0,0,1.1,1.8,3.5,3.5,0,0,0,1.9.8h.6a3.4,3.4,0,0,0,1.5-.3,3.9,3.9,0,0,0,1.6-1.4,5.3,5.3,0,0,0,.8-2.3,5.4,5.4,0,0,0-.2-2.4,3.9,3.9,0,0,0-1.1-1.8,3.5,3.5,0,0,0-1.9-.8Z" style="fill: #0286cd"/>
+      <path d="M106,16.3h1.1a7.5,7.5,0,0,1,2.5.8,7.6,7.6,0,0,1,1.8,1.3l.5.6h0a1.9,1.9,0,0,1,.7-1.3,1.8,1.8,0,0,1,1.1-.4h.3a1.9,1.9,0,0,1,1.3.7,1.9,1.9,0,0,1,.3,1.5l-1.9,13.5a1.9,1.9,0,0,1-.7,1.3,1.8,1.8,0,0,1-1.1.4h-.3a1.9,1.9,0,0,1-1.3-.8,1.9,1.9,0,0,1-.3-1.4l-1.1.7a7.6,7.6,0,0,1-1.9.7h-2.3a7.4,7.4,0,0,1-3.8-1.7,8,8,0,0,1-2.4-3.5,9.9,9.9,0,0,1-.4-4.7,10,10,0,0,1,1.7-4.5A8.1,8.1,0,0,1,103,17a7,7,0,0,1,3-.7m.4,14.4a4.2,4.2,0,0,0,1.8-.4,4.8,4.8,0,0,0,1.9-1.7,6.2,6.2,0,0,0,1-2.6,6.3,6.3,0,0,0-.2-2.8,4.8,4.8,0,0,0-1.4-2.2,4.4,4.4,0,0,0-2.4-1.1h-.7a4.2,4.2,0,0,0-1.8.4,4.8,4.8,0,0,0-1.9,1.7,6.3,6.3,0,0,0-1,2.7,6.2,6.2,0,0,0,.2,2.8,4.8,4.8,0,0,0,1.4,2.2,4.3,4.3,0,0,0,2.3,1h.7M106,14.6h0a8.8,8.8,0,0,0-3.7.8,9.9,9.9,0,0,0-3.9,3.3,11.7,11.7,0,0,0-2,5.2,11.7,11.7,0,0,0,.5,5.5,9.8,9.8,0,0,0,2.9,4.3,9.1,9.1,0,0,0,4.7,2.1h1.2l1.7-.2,1.7-.5a3.6,3.6,0,0,0,2.3,1.3h.6a3.6,3.6,0,0,0,2.2-.7,3.7,3.7,0,0,0,1.4-2.4l1.9-13.5a3.6,3.6,0,0,0-.7-2.8,3.6,3.6,0,0,0-2.4-1.4h-.6a3.5,3.5,0,0,0-2.2.8h0l-1.2-.8a9.2,9.2,0,0,0-3-1Zm.4,14.4h-.5a2.6,2.6,0,0,1-1.4-.6,3.1,3.1,0,0,1-.9-1.4,4.4,4.4,0,0,1-.1-2,4.5,4.5,0,0,1,.7-1.9,3.1,3.1,0,0,1,1.2-1.1l1.1-.2h.5a2.7,2.7,0,0,1,1.4.6,3.1,3.1,0,0,1,.9,1.4,4.5,4.5,0,0,1,.1,2.1,4.4,4.4,0,0,1-.7,1.9,3.1,3.1,0,0,1-1.2,1.1l-1.1.2Z" style="fill: #572d83"/>
+    </g>
+    <g>
+      <path d="M124.9,42.2h-1.3l-2.1-.3-1.6-.3a3.6,3.6,0,0,1-1.9-1.3,2.4,2.4,0,0,1-.4-2,2.9,2.9,0,0,1,1.2-1.9,2.5,2.5,0,0,1,1.3-.4h.7l1.1.3,1.6.4h1.4a4.8,4.8,0,0,0,3-1,2.3,2.3,0,0,0,.7-1.6L127,35.5a6.9,6.9,0,0,1-2.5.6h-.7a8.4,8.4,0,0,1-4-1,8.9,8.9,0,0,1-3.4-3.3A10.6,10.6,0,0,1,115,27a10.7,10.7,0,0,1,.8-5.1,9,9,0,0,1,2.9-3.7,8.2,8.2,0,0,1,4.4-1.6h.6a7.7,7.7,0,0,1,2.2.3,8.2,8.2,0,0,1,2.1.9l.5-.7a2.7,2.7,0,0,1,1.9-1h.2a2.7,2.7,0,0,1,1.8.7,2.8,2.8,0,0,1,.9,2l1,14.3a8.5,8.5,0,0,1-1,5.1,7.7,7.7,0,0,1-3.4,3,12.6,12.6,0,0,1-4.5,1.1Zm-.5-20.5h-.3a3.7,3.7,0,0,0-2,.7,3.9,3.9,0,0,0-1.3,1.7,5.3,5.3,0,0,0-.4,2.4,5.2,5.2,0,0,0,.7,2.3,3.9,3.9,0,0,0,1.5,1.5,3.6,3.6,0,0,0,1.8.4h.3a3.8,3.8,0,0,0,2.1-.7,4,4,0,0,0,1.3-1.7,5.2,5.2,0,0,0,.4-2.4,5.3,5.3,0,0,0-.7-2.3,4,4,0,0,0-1.5-1.5A3.6,3.6,0,0,0,124.4,21.8Z" style="fill: #e000ec"/>
+      <path d="M130.6,16.9a1.8,1.8,0,0,1,1.3.5,1.9,1.9,0,0,1,.6,1.4l1,14.3a7.6,7.6,0,0,1-.9,4.6,6.9,6.9,0,0,1-3,2.7,11.7,11.7,0,0,1-4.2,1h-1.7l-2-.3-1.4-.3a2.7,2.7,0,0,1-1.4-1,1.6,1.6,0,0,1-.2-1.3,2,2,0,0,1,.8-1.3l.8-.2h.5l1.1.3,1.7.4h1.6a5.5,5.5,0,0,0,3.5-1.2,3.3,3.3,0,0,0,1-2.7V32.3h0a5.9,5.9,0,0,1-1.1,1.3,7.4,7.4,0,0,1-1.7,1.1,6,6,0,0,1-2.2.6h-.6a7.5,7.5,0,0,1-3.6-.9,8.1,8.1,0,0,1-3.1-3,9.7,9.7,0,0,1-1.4-4.5,9.8,9.8,0,0,1,.7-4.7,8.2,8.2,0,0,1,2.6-3.3,7.4,7.4,0,0,1,3.9-1.4h.6l1.9.3a7.2,7.2,0,0,1,2,.9l1,.8V19a1.9,1.9,0,0,1,.5-1.4,1.8,1.8,0,0,1,1.3-.7h.2m-6.2,14.8h.4a4.7,4.7,0,0,0,2.5-.9,4.8,4.8,0,0,0,1.6-2,6,6,0,0,0,.4-2.8,6.1,6.1,0,0,0-.8-2.7,4.8,4.8,0,0,0-1.8-1.8,4.5,4.5,0,0,0-2.2-.5H124a4.6,4.6,0,0,0-2.5.9,4.8,4.8,0,0,0-1.6,2,6.1,6.1,0,0,0-.4,2.8,6,6,0,0,0,.8,2.7,4.8,4.8,0,0,0,1.8,1.8,4.5,4.5,0,0,0,2.2.5m6.2-16.5h-.3a3.6,3.6,0,0,0-2.5,1.3h-.1l-1.5-.6a8.6,8.6,0,0,0-2.4-.3H123a9.1,9.1,0,0,0-4.8,1.7,9.9,9.9,0,0,0-3.2,4,11.6,11.6,0,0,0-.9,5.5,11.5,11.5,0,0,0,1.6,5.3,9.9,9.9,0,0,0,3.1,3.2h-.2a3.7,3.7,0,0,0-1.6,2.4,3.3,3.3,0,0,0,.5,2.7,4.4,4.4,0,0,0,2.3,1.6h0l1.7.4,2.1.3h2a13.4,13.4,0,0,0,4.8-1.2,8.6,8.6,0,0,0,3.7-3.3,9.3,9.3,0,0,0,1.2-5.6l-1-14.3a3.6,3.6,0,0,0-1.2-2.6,3.6,3.6,0,0,0-2.4-.9ZM124.4,30a2.8,2.8,0,0,1-1.4-.3,3.1,3.1,0,0,1-1.2-1.2,4.3,4.3,0,0,1-.6-1.9,4.4,4.4,0,0,1,.3-2,3.1,3.1,0,0,1,1-1.3,2.9,2.9,0,0,1,1.6-.5h.3a2.8,2.8,0,0,1,1.4.3,3.1,3.1,0,0,1,1.2,1.2,4.4,4.4,0,0,1,.6,2,4.3,4.3,0,0,1-.3,2,3.1,3.1,0,0,1-1,1.3,2.9,2.9,0,0,1-1.6.5Z" style="fill: #572d83"/>
+    </g>
+    <g>
+      <path d="M148.6,35.8h-.3a2.7,2.7,0,0,1-1.9-1l-.3-.5h0a8.5,8.5,0,0,1-2.1.9l-2,.3h-.7a8.2,8.2,0,0,1-4.4-1.7,8.9,8.9,0,0,1-2.9-3.7,10.8,10.8,0,0,1-.7-5.1,10.9,10.9,0,0,1,1.6-4.9,9,9,0,0,1,3.4-3.2,7.9,7.9,0,0,1,3.8-.9h.7a8.4,8.4,0,0,1,2.8.7l1.8,1.1.5-.5a2.7,2.7,0,0,1,1.8-.7h.3a2.7,2.7,0,0,1,1.9,1,2.8,2.8,0,0,1,.6,2.1l-1.1,13.6a2.8,2.8,0,0,1-1,1.9,2.7,2.7,0,0,1-1.8.7Zm-5.9-14.6a3.3,3.3,0,0,0-1.7.4,3.9,3.9,0,0,0-1.5,1.5,5.4,5.4,0,0,0-.7,2.3,5.3,5.3,0,0,0,.3,2.4,3.9,3.9,0,0,0,1.2,1.7,3.4,3.4,0,0,0,1.9.7h.4a3.4,3.4,0,0,0,1.7-.4,3.9,3.9,0,0,0,1.5-1.5,5.3,5.3,0,0,0,.7-2.3,5.4,5.4,0,0,0-.3-2.4,3.9,3.9,0,0,0-1.2-1.7,3.5,3.5,0,0,0-1.9-.7Z" style="fill: #0286cd"/>
+      <path d="M142.1,16.8h.7a7.5,7.5,0,0,1,2.5.6,7.6,7.6,0,0,1,1.9,1.2l.6.6h0a1.9,1.9,0,0,1,.7-1.4,1.8,1.8,0,0,1,1.2-.5h.2a1.9,1.9,0,0,1,1.3.7,1.9,1.9,0,0,1,.4,1.5l-1.1,13.6a1.9,1.9,0,0,1-.7,1.4,1.8,1.8,0,0,1-1.2.5h-.2a1.9,1.9,0,0,1-1.3-.7,1.9,1.9,0,0,1-.4-1.4l-1,.8a7.6,7.6,0,0,1-1.9.8l-1.7.2h-.6a7.4,7.4,0,0,1-3.9-1.5,8,8,0,0,1-2.6-3.4,9.9,9.9,0,0,1-.7-4.7,10,10,0,0,1,1.4-4.6,8.2,8.2,0,0,1,3.1-2.9,7.1,7.1,0,0,1,3.4-.8m.5,14.4a4.3,4.3,0,0,0,2.1-.5,4.8,4.8,0,0,0,1.8-1.8,6.2,6.2,0,0,0,.8-2.7,6.3,6.3,0,0,0-.4-2.8,4.8,4.8,0,0,0-1.5-2.1,4.4,4.4,0,0,0-2.4-.9h-.4a4.2,4.2,0,0,0-2.1.5,4.8,4.8,0,0,0-1.8,1.8,6.2,6.2,0,0,0-.8,2.7,6.1,6.1,0,0,0,.4,2.8,4.8,4.8,0,0,0,1.5,2.1,4.3,4.3,0,0,0,2.4.9h.4m-.5-16.1h0a8.8,8.8,0,0,0-4.2,1,9.9,9.9,0,0,0-3.7,3.5,11.7,11.7,0,0,0-1.7,5.3,11.6,11.6,0,0,0,.8,5.5,9.8,9.8,0,0,0,3.1,4.1,9.1,9.1,0,0,0,4.8,1.8h.7a7.9,7.9,0,0,0,2.2-.3l1.7-.6a3.6,3.6,0,0,0,2.4,1.2h.3a3.6,3.6,0,0,0,2.4-.9,3.7,3.7,0,0,0,1.3-2.5l1.1-13.6a3.6,3.6,0,0,0-.8-2.7,3.6,3.6,0,0,0-2.5-1.3h-.3a3.5,3.5,0,0,0-2.4.9h0l-1.3-.7a9.2,9.2,0,0,0-3.1-.8Zm.5,14.4h-.3a2.6,2.6,0,0,1-1.5-.5,3.1,3.1,0,0,1-1-1.3,4.4,4.4,0,0,1-.3-2,4.5,4.5,0,0,1,.6-2,3.1,3.1,0,0,1,1.2-1.2,2.5,2.5,0,0,1,1.2-.3h.3a2.7,2.7,0,0,1,1.5.5,3.1,3.1,0,0,1,1,1.3,4.5,4.5,0,0,1,.2,2A4.4,4.4,0,0,1,145,28a3.1,3.1,0,0,1-1.2,1.2,2.5,2.5,0,0,1-1.2.3Z" style="fill: #572d83"/>
+    </g>
+    <g>
+      <path d="M161.6,35h-.4a5,5,0,0,1-1.9-.5,4.2,4.2,0,0,1-1.7-1.5,6.1,6.1,0,0,1-.9-2.8l-.9-8h-.9a2.6,2.6,0,0,1-1.6-.6,2.6,2.6,0,0,1-1-1.8,2.5,2.5,0,0,1,.6-1.9,2.7,2.7,0,0,1,1.8-.9h.6l-.6-6.1a2.7,2.7,0,0,1,.6-2.1,2.8,2.8,0,0,1,1.9-1h.3a2.6,2.6,0,0,1,1.7.6,2.8,2.8,0,0,1,1,1.9l.6,6.1,1.4-.2h.3a2.6,2.6,0,0,1,1.6.6,2.6,2.6,0,0,1,1,1.8,2.5,2.5,0,0,1-.6,1.9,2.6,2.6,0,0,1-1.8.9l-1.4.2.9,7.8a.6.6,0,0,0,.1.3h.8l1.1-.3h.2a2,2,0,0,1,1.3.6,2.6,2.6,0,0,1-.4,4,5,5,0,0,1-2.5,1Z" style="fill: #07e530"/>
+      <path d="M157.5,8.6a1.8,1.8,0,0,1,1.2.4,2,2,0,0,1,.7,1.3l.7,7,2.3-.2h.2a1.7,1.7,0,0,1,1.1.4,1.8,1.8,0,0,1,.7,1.2A1.7,1.7,0,0,1,164,20a1.8,1.8,0,0,1-1.2.6l-2.3.2.9,8.7a1.4,1.4,0,0,0,.3.7l.5.4h.7l.7-.2.7-.2h.1a1.1,1.1,0,0,1,.8.3,1.7,1.7,0,0,1-.3,2.7,4.1,4.1,0,0,1-2,.8h-1.5a4.1,4.1,0,0,1-1.6-.4,3.4,3.4,0,0,1-1.3-1.2,5.3,5.3,0,0,1-.7-2.4l-1-8.8-1.5.2h-.2a1.7,1.7,0,0,1-1.1-.4,1.7,1.7,0,0,1-.7-1.2,1.7,1.7,0,0,1,.4-1.3,1.8,1.8,0,0,1,1.2-.6l1.5-.2-.7-7a1.9,1.9,0,0,1,1.7-2.2h.2m0-1.7h-.4a3.7,3.7,0,0,0-3.3,4.1l.5,5.3a3.5,3.5,0,0,0-2.1,1.2,3.4,3.4,0,0,0-.8,2.6,3.5,3.5,0,0,0,1.3,2.4,3.4,3.4,0,0,0,2.2.8h.2l.8,7.1a6.9,6.9,0,0,0,1,3.2,5.1,5.1,0,0,0,2.1,1.8,5.8,5.8,0,0,0,2.3.5H163a5.8,5.8,0,0,0,2.9-1.1,3.5,3.5,0,0,0,.5-5.4,2.8,2.8,0,0,0-1.9-.8h-.3l-1,.3-.7-6.4h.6a3.5,3.5,0,0,0,2.4-1.3,3.4,3.4,0,0,0,.8-2.6,3.5,3.5,0,0,0-3.5-3.2h-1l-.5-5.3a3.7,3.7,0,0,0-1.3-2.5,3.5,3.5,0,0,0-2.3-.8Z" style="fill: #572d83"/>
+    </g>
+    <g>
+      <path d="M169.6,35.3a2.7,2.7,0,0,1-2-.8,2.8,2.8,0,0,1-.8-2V19.2a2.8,2.8,0,0,1,.8-2,2.8,2.8,0,0,1,4,0,2.8,2.8,0,0,1,.8,2V32.5a2.8,2.8,0,0,1-.8,2A2.7,2.7,0,0,1,169.6,35.3Zm0-19.3a3.3,3.3,0,0,1-2.1-.5,2.3,2.3,0,0,1-.8-1.9v-.6a2.2,2.2,0,0,1,.9-2,3.5,3.5,0,0,1,2-.5,3.4,3.4,0,0,1,2.1.5,2.3,2.3,0,0,1,.8,1.9v.6a2.3,2.3,0,0,1-.9,2A3.6,3.6,0,0,1,169.6,16Z" style="fill: #fdc401"/>
+      <path d="M169.6,11.3a2.6,2.6,0,0,1,1.6.4,1.5,1.5,0,0,1,.5,1.3v.6a1.5,1.5,0,0,1-.5,1.3,2.8,2.8,0,0,1-1.6.3,2.6,2.6,0,0,1-1.5-.4,1.5,1.5,0,0,1-.5-1.3v-.6a1.4,1.4,0,0,1,.5-1.3,2.8,2.8,0,0,1,1.5-.3m0,5.9a1.9,1.9,0,0,1,1.4.6,1.9,1.9,0,0,1,.5,1.4V32.5a1.9,1.9,0,0,1-.5,1.4,2,2,0,0,1-2.8,0,1.9,1.9,0,0,1-.5-1.4V19.2a1.9,1.9,0,0,1,.5-1.4,1.9,1.9,0,0,1,1.4-.6m0-7.7a4.4,4.4,0,0,0-2.5.6,3,3,0,0,0-1.3,2.7v.6a3.1,3.1,0,0,0,1.1,2.6l.3.2-.3.3a3.7,3.7,0,0,0-1,2.6V32.5a3.7,3.7,0,0,0,1,2.6,3.7,3.7,0,0,0,5.3,0,3.7,3.7,0,0,0,1-2.6V19.2a3.7,3.7,0,0,0-1-2.6l-.3-.3h.2a3.1,3.1,0,0,0,1.2-2.7v-.6a3.1,3.1,0,0,0-1.1-2.6,4.2,4.2,0,0,0-2.6-.7Z" style="fill: #572d83"/>
+    </g>
+  </g>
+  <g>
+    <g>
+      <path d="M55.6,37.2a1.1,1.1,0,0,1-.9.9c-1.2.2-3.7.1-6.8-2.2a21.2,21.2,0,0,1-38.9-.1C6,38,3.5,38.1,2.3,37.9a1.1,1.1,0,0,1-.9-.9C.8,32.3,6.1,25.8,7.5,24.1a21.2,21.2,0,0,1,42.1.4C50.8,25.8,56.2,32.3,55.6,37.2Z" style="fill: #f8a2ac"/>
+      <path d="M28.5,48.8A21.6,21.6,0,0,1,8.9,36.2a9.6,9.6,0,0,1-6.7,2A1.4,1.4,0,0,1,1.1,37C.5,32.3,5.6,25.9,7.2,24a21.6,21.6,0,0,1,42.7.4c1.3,1.4,6.7,8,6.1,12.9a1.4,1.4,0,0,1-1.2,1.2,9.6,9.6,0,0,1-6.7-2.1A21.6,21.6,0,0,1,28.5,48.8ZM9.2,35.3l.2.4a20.9,20.9,0,0,0,38.3.1l.2-.4.3.2c3,2.2,5.4,2.3,6.6,2.2a.8.8,0,0,0,.7-.7h0c.6-4.7-4.9-11.2-6-12.5h-.1a20.9,20.9,0,0,0-41.5-.4H7.7c-1.1,1.3-6.6,8-6.1,12.7a.8.8,0,0,0,.7.7c1.2.1,3.6.1,6.5-2.1Z" style="fill: #474843"/>
+    </g>
+    <g>
+      <path d="M18.6,10s7.3-8.5,11.8-8.5a.9.9,0,0,1,.8.7c.3,1.1.5,3.6-2,7" style="fill: #f8a2ac"/>
+      <path d="M18.6,10a39,39,0,0,1,4-4.4l2.2-1.9a17.3,17.3,0,0,1,2.5-1.6l1.4-.6,1.5-.3h.5l.4.2.3.4v.4a6.2,6.2,0,0,1,.1,1.5,7.8,7.8,0,0,1-.3,1.5l-.2.7v.3l-.2.3a10.9,10.9,0,0,1-1.6,2.5,14.5,14.5,0,0,0,1.3-2.6,8.3,8.3,0,0,0,.6-2.8,5.6,5.6,0,0,0-.1-1.4V2.2h0l-.2-.2h-.5l-1.3.3-1.3.6A26.9,26.9,0,0,0,22.8,6C21.4,7.3,19.9,8.6,18.6,10Z" style="fill: #474843"/>
+    </g>
+    <g>
+      <path d="M28,10s4.5-5.1,8.2-5.1a.7.7,0,0,1,.7.5c.2.9.4,3-1.7,5.8" style="fill: #f8a2ac"/>
+      <path d="M28,10A18.6,18.6,0,0,1,31,7a11.1,11.1,0,0,1,3.8-2.1l1.1-.2h.6a1,1,0,0,1,.6.5v.2h0v.3a5.1,5.1,0,0,1,0,.6,5.3,5.3,0,0,1-.1,1.1,6.7,6.7,0,0,1-.3,1.1l-.4,1a9.3,9.3,0,0,1-1.2,1.7,9.8,9.8,0,0,0,1.5-3.9,6.1,6.1,0,0,0,0-1V5.6h-.1l-.2-.2h-.4l-1,.2-1.9.8L31.3,7.3A36.9,36.9,0,0,0,28,10Z" style="fill: #474843"/>
+    </g>
+    <path d="M41.3,34.4q0,.5,0,1a12.9,12.9,0,0,1-25.9,0q0-.5,0-1a14.4,14.4,0,0,1-1.2-13.9,13.7,13.7,0,0,1,1.5-2.6,7.7,7.7,0,0,1,5.7-3.2c4.7-.3,6.9,4,6.9,4s2.3-4.2,6.9-4A7.7,7.7,0,0,1,41,17.9a13.7,13.7,0,0,1,1.5,2.6A14.4,14.4,0,0,1,41.3,34.4Z" style="fill: #ffe9ec"/>
+    <g>
+      <g>
+        <path d="M22.9,32.7a25.1,25.1,0,0,0,5.3-2.1.5.5,0,0,1,.5,0L32,32.7a.5.5,0,0,1-.1.8c-1.9.6-6.2,1.6-9.1,0A.5.5,0,0,1,22.9,32.7Z" style="fill: #f24667"/>
+        <path d="M26.6,34.8a8.2,8.2,0,0,1-4-.9.9.9,0,0,1,.2-1.6h0a22.7,22.7,0,0,0,5.2-2.1.9.9,0,0,1,1,0l3.3,2.1a.9.9,0,0,1-.2,1.6A19.2,19.2,0,0,1,26.6,34.8ZM23,33.1h0c2.7,1.5,7,.5,8.7-.1h0l-3.3-2.1h-.1A25.1,25.1,0,0,1,23,33.1Z" style="fill: #474843"/>
+      </g>
+      <g>
+        <path d="M25.6,34.3s-.5,3.2,2.2,3.1H28c.5-.1,2.3-.9,4.2-4.1A18,18,0,0,1,25.6,34.3Z" style="fill: #f24667"/>
+        <path d="M27.6,37.7a2.3,2.3,0,0,1-1.8-.7,3.8,3.8,0,0,1-.6-2.8.4.4,0,0,1,.4-.3,17.7,17.7,0,0,0,6.5-1.1.4.4,0,0,1,.5.6c-2,3.4-3.9,4.1-4.5,4.3h-.5Zm-1.7-3a2.6,2.6,0,0,0,.5,1.8,1.6,1.6,0,0,0,1.3.4h.1c.4-.1,1.8-.7,3.4-3A17.6,17.6,0,0,1,26,34.7Z" style="fill: #474843"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <ellipse cx="36" cy="26.5" rx="2.8" ry="3.6" transform="translate(-2.9 4.5) rotate(-6.9)" style="fill: #242014"/>
+        <g style="clip-path: url(#clip-path)">
+          <polygon points="33.3 28.7 38.8 28 38.8 28.8 33.3 28.8 33.3 28.7" style="fill: #792c34"/>
+          <polygon points="33.3 28.7 38.8 27.9 38.8 28 33.3 28.7 33.3 28.7" style="fill: #792c34"/>
+          <polygon points="33.3 28.7 38.8 27.9 38.8 27.9 33.3 28.7 33.3 28.7" style="fill: #782c34"/>
+          <polygon points="33.3 28.7 38.8 27.9 38.8 27.9 33.3 28.7 33.3 28.7" style="fill: #772c33"/>
+          <polygon points="33.3 28.7 38.8 27.9 38.8 27.9 33.3 28.7 33.3 28.7" style="fill: #762c33"/>
+          <polygon points="33.3 28.7 38.8 27.9 38.8 27.9 33.3 28.7 33.3 28.7" style="fill: #752b32"/>
+          <polygon points="33.3 28.7 38.8 27.9 38.8 27.9 33.3 28.7 33.3 28.7" style="fill: #742b32"/>
+          <polygon points="33.3 28.6 38.8 27.9 38.8 27.9 33.3 28.7 33.3 28.6" style="fill: #732b32"/>
+          <polygon points="33.3 28.6 38.8 27.9 38.8 27.9 33.3 28.6 33.3 28.6" style="fill: #722b31"/>
+          <polygon points="33.3 28.6 38.8 27.8 38.8 27.9 33.3 28.6 33.3 28.6" style="fill: #712b31"/>
+          <polygon points="33.3 28.6 38.8 27.8 38.8 27.8 33.3 28.6 33.3 28.6" style="fill: #702b31"/>
+          <polygon points="33.3 28.6 38.8 27.8 38.8 27.8 33.3 28.6 33.3 28.6" style="fill: #6f2b30"/>
+          <polygon points="33.3 28.6 38.8 27.8 38.8 27.8 33.3 28.6 33.3 28.6" style="fill: #6e2a30"/>
+          <polygon points="33.3 28.6 38.8 27.8 38.8 27.8 33.3 28.6 33.3 28.6" style="fill: #6d2a2f"/>
+          <polygon points="33.3 28.6 38.8 27.8 38.8 27.8 33.3 28.6 33.3 28.6" style="fill: #6c2a2f"/>
+          <polygon points="33.3 28.5 38.8 27.8 38.8 27.8 33.3 28.6 33.3 28.5" style="fill: #6b2a2f"/>
+          <polygon points="33.3 28.5 38.8 27.7 38.8 27.8 33.3 28.5 33.3 28.5" style="fill: #6a2a2e"/>
+          <polygon points="33.3 28.5 38.8 27.7 38.8 27.7 33.3 28.5 33.3 28.5" style="fill: #692a2e"/>
+          <polygon points="33.3 28.5 38.8 27.7 38.8 27.7 33.3 28.5 33.3 28.5" style="fill: #682a2e"/>
+          <polygon points="33.3 28.5 38.8 27.7 38.8 27.7 33.3 28.5 33.3 28.5" style="fill: #67292d"/>
+          <polygon points="33.3 28.5 38.8 27.7 38.8 27.7 33.3 28.5 33.3 28.5" style="fill: #66292d"/>
+          <polygon points="33.3 28.5 38.8 27.7 38.8 27.7 33.3 28.5 33.3 28.5" style="fill: #65292c"/>
+          <polygon points="33.3 28.4 38.8 27.7 38.8 27.7 33.3 28.5 33.3 28.4" style="fill: #64292c"/>
+          <polygon points="33.3 28.4 38.8 27.6 38.8 27.7 33.3 28.4 33.3 28.4" style="fill: #63292c"/>
+          <polygon points="33.3 28.4 38.8 27.6 38.8 27.6 33.3 28.4 33.3 28.4" style="fill: #62292b"/>
+          <polygon points="33.3 28.4 38.8 27.6 38.8 27.6 33.3 28.4 33.3 28.4" style="fill: #61292b"/>
+          <polygon points="33.3 28.4 38.8 27.6 38.8 27.6 33.3 28.4 33.3 28.4" style="fill: #60282a"/>
+          <polygon points="33.3 28.4 38.8 27.6 38.8 27.6 33.3 28.4 33.3 28.4" style="fill: #5f282a"/>
+          <polygon points="33.3 28.4 38.8 27.6 38.8 27.6 33.3 28.4 33.3 28.4" style="fill: #5e282a"/>
+          <polygon points="33.3 28.3 38.8 27.6 38.8 27.6 33.3 28.4 33.3 28.3" style="fill: #5d2829"/>
+          <polygon points="33.3 28.3 38.8 27.5 38.8 27.6 33.3 28.3 33.3 28.3" style="fill: #5c2829"/>
+          <polygon points="33.3 28.3 38.8 27.5 38.8 27.5 33.3 28.3 33.3 28.3" style="fill: #5b2829"/>
+          <polygon points="33.3 28.3 38.8 27.5 38.8 27.5 33.3 28.3 33.3 28.3" style="fill: #5a2828"/>
+          <polygon points="33.3 28.3 38.8 27.5 38.8 27.5 33.3 28.3 33.3 28.3" style="fill: #592728"/>
+          <polygon points="33.3 28.3 38.8 27.5 38.8 27.5 33.3 28.3 33.3 28.3" style="fill: #582727"/>
+          <polygon points="33.3 28.3 38.8 27.5 38.8 27.5 33.3 28.3 33.3 28.3" style="fill: #572727"/>
+          <polygon points="33.3 28.3 38.8 27.5 38.8 27.5 33.3 28.3 33.3 28.3" style="fill: #562727"/>
+          <polygon points="33.3 28.2 38.8 27.5 38.8 27.5 33.3 28.3 33.3 28.2" style="fill: #552726"/>
+          <polygon points="33.3 28.2 38.8 27.4 38.8 27.5 33.3 28.2 33.3 28.2" style="fill: #542726"/>
+          <polygon points="33.3 28.2 38.8 27.4 38.8 27.4 33.3 28.2 33.3 28.2" style="fill: #532726"/>
+          <polygon points="33.3 28.2 38.8 27.4 38.8 27.4 33.3 28.2 33.3 28.2" style="fill: #522625"/>
+          <polygon points="33.3 28.2 38.8 27.4 38.8 27.4 33.3 28.2 33.3 28.2" style="fill: #512625"/>
+          <polygon points="33.3 28.2 38.8 27.4 38.8 27.4 33.3 28.2 33.3 28.2" style="fill: #502624"/>
+          <polygon points="33.3 28.2 38.8 27.4 38.8 27.4 33.3 28.2 33.3 28.2" style="fill: #4e2624"/>
+          <polygon points="33.3 28.1 38.8 27.4 38.8 27.4 33.3 28.2 33.3 28.1" style="fill: #4d2624"/>
+          <polygon points="33.3 28.1 38.8 27.3 38.8 27.4 33.3 28.1 33.3 28.1" style="fill: #4c2623"/>
+          <polygon points="33.3 28.1 38.8 27.3 38.8 27.3 33.3 28.1 33.3 28.1" style="fill: #4b2623"/>
+          <polygon points="33.3 28.1 38.8 27.3 38.8 27.3 33.3 28.1 33.3 28.1" style="fill: #4a2522"/>
+          <polygon points="33.3 28.1 38.8 27.3 38.8 27.3 33.3 28.1 33.3 28.1" style="fill: #492522"/>
+          <polygon points="33.3 28.1 38.8 27.3 38.8 27.3 33.3 28.1 33.3 28.1" style="fill: #482522"/>
+          <polygon points="33.3 28.1 38.8 27.3 38.8 27.3 33.3 28.1 33.3 28.1" style="fill: #472521"/>
+          <polygon points="33.3 28 38.8 27.3 38.8 27.3 33.3 28.1 33.3 28" style="fill: #462521"/>
+          <polygon points="33.3 28 38.8 27.2 38.8 27.3 33.3 28 33.3 28" style="fill: #452521"/>
+          <polygon points="33.3 28 38.8 27.2 38.8 27.2 33.3 28 33.3 28" style="fill: #442520"/>
+          <polygon points="33.3 28 38.8 27.2 38.8 27.2 33.3 28 33.3 28" style="fill: #432420"/>
+          <polygon points="33.3 28 38.8 27.2 38.8 27.2 33.3 28 33.3 28" style="fill: #42241f"/>
+          <polygon points="33.3 28 38.8 27.2 38.8 27.2 33.3 28 33.3 28" style="fill: #41241f"/>
+          <polygon points="33.3 28 38.8 27.2 38.8 27.2 33.3 28 33.3 28" style="fill: #40241f"/>
+          <polygon points="33.3 27.9 38.8 27.2 38.8 27.2 33.3 28 33.3 27.9" style="fill: #3f241e"/>
+          <polygon points="33.3 27.9 38.8 27.2 38.8 27.2 33.3 27.9 33.3 27.9" style="fill: #3e241e"/>
+          <polygon points="33.3 27.9 38.8 27.1 38.8 27.2 33.3 27.9 33.3 27.9" style="fill: #3d241e"/>
+          <polygon points="33.3 27.9 38.8 27.1 38.8 27.1 33.3 27.9 33.3 27.9" style="fill: #3c231d"/>
+          <polygon points="33.3 27.9 38.8 27.1 38.8 27.1 33.3 27.9 33.3 27.9" style="fill: #3b231d"/>
+          <polygon points="33.3 27.9 38.8 27.1 38.8 27.1 33.3 27.9 33.3 27.9" style="fill: #3a231c"/>
+          <polygon points="33.3 27.9 38.8 27.1 38.8 27.1 33.3 27.9 33.3 27.9" style="fill: #39231c"/>
+          <polygon points="33.3 27.9 38.8 27.1 38.8 27.1 33.3 27.9 33.3 27.9" style="fill: #38231c"/>
+          <polygon points="33.3 27.8 38.8 27.1 38.8 27.1 33.3 27.9 33.3 27.8" style="fill: #37231b"/>
+          <polygon points="33.3 27.8 38.8 27 38.8 27.1 33.3 27.8 33.3 27.8" style="fill: #36231b"/>
+          <polygon points="33.3 27.8 38.8 27 38.8 27 33.3 27.8 33.3 27.8" style="fill: #35221a"/>
+          <polygon points="33.3 27.8 38.8 27 38.8 27 33.3 27.8 33.3 27.8" style="fill: #34221a"/>
+          <polygon points="33.3 27.8 38.8 27 38.8 27 33.3 27.8 33.3 27.8" style="fill: #33221a"/>
+          <polygon points="33.3 27.8 38.8 27 38.8 27 33.3 27.8 33.3 27.8" style="fill: #322219"/>
+          <polygon points="33.3 27.8 38.8 27 38.8 27 33.3 27.8 33.3 27.8" style="fill: #312219"/>
+          <polygon points="33.3 27.7 38.8 27 38.8 27 33.3 27.8 33.3 27.7" style="fill: #302219"/>
+          <polygon points="33.3 27.7 38.8 26.9 38.8 27 33.3 27.7 33.3 27.7" style="fill: #2f2218"/>
+          <polygon points="33.3 27.7 38.8 26.9 38.8 26.9 33.3 27.7 33.3 27.7" style="fill: #2e2118"/>
+          <polygon points="33.3 27.7 38.8 26.9 38.8 26.9 33.3 27.7 33.3 27.7" style="fill: #2d2117"/>
+          <polygon points="33.3 27.7 38.8 26.9 38.8 26.9 33.3 27.7 33.3 27.7" style="fill: #2c2117"/>
+          <polygon points="33.3 27.7 38.8 26.9 38.8 26.9 33.3 27.7 33.3 27.7" style="fill: #2b2117"/>
+          <polygon points="33.3 27.7 38.8 26.9 38.8 26.9 33.3 27.7 33.3 27.7" style="fill: #2a2116"/>
+          <polygon points="33.3 27.6 38.8 26.9 38.8 26.9 33.3 27.7 33.3 27.6" style="fill: #292116"/>
+          <polygon points="33.3 27.6 38.8 26.9 38.8 26.9 33.3 27.6 33.3 27.6" style="fill: #282116"/>
+          <polygon points="33.3 27.6 38.8 26.8 38.8 26.9 33.3 27.6 33.3 27.6" style="fill: #272015"/>
+          <polygon points="33.3 27.6 38.8 26.8 38.8 26.8 33.3 27.6 33.3 27.6" style="fill: #262015"/>
+          <polygon points="33.3 27.6 38.8 26.8 38.8 26.8 33.3 27.6 33.3 27.6" style="fill: #252014"/>
+          <polygon points="33.3 27.6 38.8 26.8 38.8 26.8 33.3 27.6 33.3 27.6" style="fill: #242014"/>
+          <polygon points="38.8 26.8 33.3 27.6 33.3 26.6 38.8 26.6 38.8 26.8" style="fill: #242014"/>
+        </g>
+        <path d="M38.7,27.7A2.9,2.9,0,0,1,36.4,30a2.9,2.9,0,0,1-2.8-1.7A7.5,7.5,0,0,0,38.7,27.7Z" style="fill: #792c34"/>
+        <path d="M34.7,17.3H36l1.3.4,1.1.7a2.9,2.9,0,0,1,.8,1.1l-1-.7L37,18.2l-1.1-.5Z" style="fill: #474843"/>
+        <circle cx="36.1" cy="25.8" r="1.4" style="fill: #eceee0"/>
+      </g>
+      <g style="mask: url(#mask)">
+        <circle cx="39.8" cy="32.7" r="4.9" style="fill: #f9c0c8"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <ellipse cx="20.7" cy="26.5" rx="3.6" ry="2.8" transform="translate(-8.1 43.9) rotate(-83.1)" style="fill: #242014"/>
+        <g style="clip-path: url(#clip-path-2)">
+          <polygon points="17.9 28 23.5 28.7 23.5 28.8 17.9 28.8 17.9 28" style="fill: #792c34"/>
+          <polygon points="17.9 27.9 23.5 28.7 23.5 28.7 17.9 28 17.9 27.9" style="fill: #792c34"/>
+          <polygon points="17.9 27.9 23.5 28.7 23.5 28.7 17.9 27.9 17.9 27.9" style="fill: #782c34"/>
+          <polygon points="17.9 27.9 23.5 28.7 23.5 28.7 17.9 27.9 17.9 27.9" style="fill: #772c33"/>
+          <polygon points="17.9 27.9 23.5 28.7 23.5 28.7 17.9 27.9 17.9 27.9" style="fill: #762c33"/>
+          <polygon points="17.9 27.9 23.5 28.7 23.5 28.7 17.9 27.9 17.9 27.9" style="fill: #752b32"/>
+          <polygon points="17.9 27.9 23.5 28.7 23.5 28.7 17.9 27.9 17.9 27.9" style="fill: #742b32"/>
+          <polygon points="17.9 27.9 23.5 28.6 23.5 28.7 17.9 27.9 17.9 27.9" style="fill: #732b32"/>
+          <polygon points="17.9 27.9 23.5 28.6 23.5 28.6 17.9 27.9 17.9 27.9" style="fill: #722b31"/>
+          <polygon points="17.9 27.8 23.5 28.6 23.5 28.6 17.9 27.9 17.9 27.8" style="fill: #712b31"/>
+          <polygon points="17.9 27.8 23.5 28.6 23.5 28.6 17.9 27.8 17.9 27.8" style="fill: #702b31"/>
+          <polygon points="17.9 27.8 23.5 28.6 23.5 28.6 17.9 27.8 17.9 27.8" style="fill: #6f2b30"/>
+          <polygon points="17.9 27.8 23.5 28.6 23.5 28.6 17.9 27.8 17.9 27.8" style="fill: #6e2a30"/>
+          <polygon points="17.9 27.8 23.5 28.6 23.5 28.6 17.9 27.8 17.9 27.8" style="fill: #6d2a2f"/>
+          <polygon points="17.9 27.8 23.5 28.6 23.5 28.6 17.9 27.8 17.9 27.8" style="fill: #6c2a2f"/>
+          <polygon points="17.9 27.8 23.5 28.5 23.5 28.6 17.9 27.8 17.9 27.8" style="fill: #6b2a2f"/>
+          <polygon points="17.9 27.7 23.5 28.5 23.5 28.5 17.9 27.8 17.9 27.7" style="fill: #6a2a2e"/>
+          <polygon points="17.9 27.7 23.5 28.5 23.5 28.5 17.9 27.7 17.9 27.7" style="fill: #692a2e"/>
+          <polygon points="17.9 27.7 23.5 28.5 23.5 28.5 17.9 27.7 17.9 27.7" style="fill: #682a2e"/>
+          <polygon points="17.9 27.7 23.5 28.5 23.5 28.5 17.9 27.7 17.9 27.7" style="fill: #67292d"/>
+          <polygon points="17.9 27.7 23.5 28.5 23.5 28.5 17.9 27.7 17.9 27.7" style="fill: #66292d"/>
+          <polygon points="17.9 27.7 23.5 28.5 23.5 28.5 17.9 27.7 17.9 27.7" style="fill: #65292c"/>
+          <polygon points="17.9 27.7 23.5 28.4 23.5 28.5 17.9 27.7 17.9 27.7" style="fill: #64292c"/>
+          <polygon points="17.9 27.6 23.5 28.4 23.5 28.4 17.9 27.7 17.9 27.6" style="fill: #63292c"/>
+          <polygon points="17.9 27.6 23.5 28.4 23.5 28.4 17.9 27.6 17.9 27.6" style="fill: #62292b"/>
+          <polygon points="17.9 27.6 23.5 28.4 23.5 28.4 17.9 27.6 17.9 27.6" style="fill: #61292b"/>
+          <polygon points="17.9 27.6 23.5 28.4 23.5 28.4 17.9 27.6 17.9 27.6" style="fill: #60282a"/>
+          <polygon points="17.9 27.6 23.5 28.4 23.5 28.4 17.9 27.6 17.9 27.6" style="fill: #5f282a"/>
+          <polygon points="17.9 27.6 23.5 28.4 23.5 28.4 17.9 27.6 17.9 27.6" style="fill: #5e282a"/>
+          <polygon points="17.9 27.6 23.5 28.3 23.5 28.4 17.9 27.6 17.9 27.6" style="fill: #5d2829"/>
+          <polygon points="17.9 27.5 23.5 28.3 23.5 28.3 17.9 27.6 17.9 27.5" style="fill: #5c2829"/>
+          <polygon points="17.9 27.5 23.5 28.3 23.5 28.3 17.9 27.5 17.9 27.5" style="fill: #5b2829"/>
+          <polygon points="17.9 27.5 23.5 28.3 23.5 28.3 17.9 27.5 17.9 27.5" style="fill: #5a2828"/>
+          <polygon points="17.9 27.5 23.5 28.3 23.5 28.3 17.9 27.5 17.9 27.5" style="fill: #592728"/>
+          <polygon points="17.9 27.5 23.5 28.3 23.5 28.3 17.9 27.5 17.9 27.5" style="fill: #582727"/>
+          <polygon points="17.9 27.5 23.5 28.3 23.5 28.3 17.9 27.5 17.9 27.5" style="fill: #572727"/>
+          <polygon points="17.9 27.5 23.5 28.3 23.5 28.3 17.9 27.5 17.9 27.5" style="fill: #562727"/>
+          <polygon points="17.9 27.5 23.5 28.2 23.5 28.3 17.9 27.5 17.9 27.5" style="fill: #552726"/>
+          <polygon points="17.9 27.4 23.5 28.2 23.5 28.2 17.9 27.5 17.9 27.4" style="fill: #542726"/>
+          <polygon points="17.9 27.4 23.5 28.2 23.5 28.2 17.9 27.4 17.9 27.4" style="fill: #532726"/>
+          <polygon points="17.9 27.4 23.5 28.2 23.5 28.2 17.9 27.4 17.9 27.4" style="fill: #522625"/>
+          <polygon points="17.9 27.4 23.5 28.2 23.5 28.2 17.9 27.4 17.9 27.4" style="fill: #512625"/>
+          <polygon points="17.9 27.4 23.5 28.2 23.5 28.2 17.9 27.4 17.9 27.4" style="fill: #502624"/>
+          <polygon points="17.9 27.4 23.5 28.2 23.5 28.2 17.9 27.4 17.9 27.4" style="fill: #4e2624"/>
+          <polygon points="17.9 27.4 23.5 28.1 23.5 28.2 17.9 27.4 17.9 27.4" style="fill: #4d2624"/>
+          <polygon points="17.9 27.3 23.5 28.1 23.5 28.1 17.9 27.4 17.9 27.3" style="fill: #4c2623"/>
+          <polygon points="17.9 27.3 23.5 28.1 23.5 28.1 17.9 27.3 17.9 27.3" style="fill: #4b2623"/>
+          <polygon points="17.9 27.3 23.5 28.1 23.5 28.1 17.9 27.3 17.9 27.3" style="fill: #4a2522"/>
+          <polygon points="17.9 27.3 23.5 28.1 23.5 28.1 17.9 27.3 17.9 27.3" style="fill: #492522"/>
+          <polygon points="17.9 27.3 23.5 28.1 23.5 28.1 17.9 27.3 17.9 27.3" style="fill: #482522"/>
+          <polygon points="17.9 27.3 23.5 28.1 23.5 28.1 17.9 27.3 17.9 27.3" style="fill: #472521"/>
+          <polygon points="17.9 27.3 23.5 28 23.5 28.1 17.9 27.3 17.9 27.3" style="fill: #462521"/>
+          <polygon points="17.9 27.2 23.5 28 23.5 28 17.9 27.3 17.9 27.2" style="fill: #452521"/>
+          <polygon points="17.9 27.2 23.5 28 23.5 28 17.9 27.2 17.9 27.2" style="fill: #442520"/>
+          <polygon points="17.9 27.2 23.5 28 23.5 28 17.9 27.2 17.9 27.2" style="fill: #432420"/>
+          <polygon points="17.9 27.2 23.5 28 23.5 28 17.9 27.2 17.9 27.2" style="fill: #42241f"/>
+          <polygon points="17.9 27.2 23.5 28 23.5 28 17.9 27.2 17.9 27.2" style="fill: #41241f"/>
+          <polygon points="17.9 27.2 23.5 28 23.5 28 17.9 27.2 17.9 27.2" style="fill: #40241f"/>
+          <polygon points="17.9 27.2 23.5 27.9 23.5 28 17.9 27.2 17.9 27.2" style="fill: #3f241e"/>
+          <polygon points="17.9 27.2 23.5 27.9 23.5 27.9 17.9 27.2 17.9 27.2" style="fill: #3e241e"/>
+          <polygon points="17.9 27.1 23.5 27.9 23.5 27.9 17.9 27.2 17.9 27.1" style="fill: #3d241e"/>
+          <polygon points="17.9 27.1 23.5 27.9 23.5 27.9 17.9 27.1 17.9 27.1" style="fill: #3c231d"/>
+          <polygon points="17.9 27.1 23.5 27.9 23.5 27.9 17.9 27.1 17.9 27.1" style="fill: #3b231d"/>
+          <polygon points="17.9 27.1 23.5 27.9 23.5 27.9 17.9 27.1 17.9 27.1" style="fill: #3a231c"/>
+          <polygon points="17.9 27.1 23.5 27.9 23.5 27.9 17.9 27.1 17.9 27.1" style="fill: #39231c"/>
+          <polygon points="17.9 27.1 23.5 27.9 23.5 27.9 17.9 27.1 17.9 27.1" style="fill: #38231c"/>
+          <polygon points="17.9 27.1 23.5 27.8 23.5 27.9 17.9 27.1 17.9 27.1" style="fill: #37231b"/>
+          <polygon points="17.9 27 23.5 27.8 23.5 27.8 17.9 27.1 17.9 27" style="fill: #36231b"/>
+          <polygon points="17.9 27 23.5 27.8 23.5 27.8 17.9 27 17.9 27" style="fill: #35221a"/>
+          <polygon points="17.9 27 23.5 27.8 23.5 27.8 17.9 27 17.9 27" style="fill: #34221a"/>
+          <polygon points="17.9 27 23.5 27.8 23.5 27.8 17.9 27 17.9 27" style="fill: #33221a"/>
+          <polygon points="17.9 27 23.5 27.8 23.5 27.8 17.9 27 17.9 27" style="fill: #322219"/>
+          <polygon points="17.9 27 23.5 27.8 23.5 27.8 17.9 27 17.9 27" style="fill: #312219"/>
+          <polygon points="17.9 27 23.5 27.7 23.5 27.8 17.9 27 17.9 27" style="fill: #302219"/>
+          <polygon points="17.9 26.9 23.5 27.7 23.5 27.7 17.9 27 17.9 26.9" style="fill: #2f2218"/>
+          <polygon points="17.9 26.9 23.5 27.7 23.5 27.7 17.9 26.9 17.9 26.9" style="fill: #2e2118"/>
+          <polygon points="17.9 26.9 23.5 27.7 23.5 27.7 17.9 26.9 17.9 26.9" style="fill: #2d2117"/>
+          <polygon points="17.9 26.9 23.5 27.7 23.5 27.7 17.9 26.9 17.9 26.9" style="fill: #2c2117"/>
+          <polygon points="17.9 26.9 23.5 27.7 23.5 27.7 17.9 26.9 17.9 26.9" style="fill: #2b2117"/>
+          <polygon points="17.9 26.9 23.5 27.7 23.5 27.7 17.9 26.9 17.9 26.9" style="fill: #2a2116"/>
+          <polygon points="17.9 26.9 23.5 27.6 23.5 27.7 17.9 26.9 17.9 26.9" style="fill: #292116"/>
+          <polygon points="17.9 26.9 23.5 27.6 23.5 27.6 17.9 26.9 17.9 26.9" style="fill: #282116"/>
+          <polygon points="17.9 26.8 23.5 27.6 23.5 27.6 17.9 26.9 17.9 26.8" style="fill: #272015"/>
+          <polygon points="17.9 26.8 23.5 27.6 23.5 27.6 17.9 26.8 17.9 26.8" style="fill: #262015"/>
+          <polygon points="17.9 26.8 23.5 27.6 23.5 27.6 17.9 26.8 17.9 26.8" style="fill: #252014"/>
+          <polygon points="17.9 26.8 23.5 27.6 23.5 27.6 17.9 26.8 17.9 26.8" style="fill: #242014"/>
+          <polygon points="23.5 27.6 17.9 26.8 17.9 26.6 23.5 26.6 23.5 27.6" style="fill: #242014"/>
+        </g>
+        <path d="M18,27.7A2.9,2.9,0,0,0,20.3,30a2.9,2.9,0,0,0,2.8-1.7A7.5,7.5,0,0,1,18,27.7Z" style="fill: #792c34"/>
+        <path d="M22,17.3l-1.2.4-1.1.5-1.1.5-1,.7a2.9,2.9,0,0,1,.8-1.1l1.1-.7,1.3-.4Z" style="fill: #474843"/>
+        <circle cx="20.6" cy="25.8" r="1.4" style="fill: #eceee0"/>
+      </g>
+      <g style="mask: url(#mask-2)">
+        <circle cx="16.9" cy="32.7" r="4.9" style="fill: #f9c0c8"/>
+      </g>
+    </g>
+  </g>
+</svg>

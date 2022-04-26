@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+/* ************************* NAV SECTION BEGINS ************************* */
+nav {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    /* box-shadow: 0px 1px 18px 0px #e6e6e6; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    height: 50px;
+    width: 175px;
+    margin: 25px 0px 25px 150px;
+    background-image: url(../ASSETS/Website/PragatiHeaderLogo.svg);
+    background-repeat: no-repeat;   
+}
+.spacing{
+    height: 100px;
+    background-color: ffffff;
+    width: 100%;
+}
+.spacing2{
+    height: 10px;
+    background-color: ffffff;
+    width: 100%;
+}
+.Container1{
+    margin: 0px auto;
+    width: 1100px;
+    background-image: url('../ASSETS/Subscription/SubscriptionBackgroundBlob.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 530px;
+    border-radius: 36px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.HeaderText{
+    color: #484F61;
+    text-align: center;
+    display: inline;
+    margin: 36px auto;
+    height: 50px;
+    font-weight: 500;
+    font-family: 'Poppins Medium';
+    font-size: 40px;
+}
+.cardBox{
+    width: 950px;
+    height: 350px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card{
+    width: 250px;
+    height: 315px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 27px;
+    box-shadow: 1px 1px 18px #d8d8d8;
+}
+.pHeading{
+    font-size: 20px;
+    color: #5A70D8;
+    margin: 32px 25px 5px 25px;
+    font-weight: 500;
+}
+.pPrice{
+    font-size: 18px;
+    background-color: #5A70D8;
+    color: white;
+    margin: 0px 70px 20px 70px;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.pDesc{
+    color: #636363;
+    font-size: 13px;
+    margin: 30px 32px 0px 32px;
+}
+.subscribeButton {
+    font-size: 14px;
+    background-color: white;
+    padding: 12px 30px;
+    width: auto;
+    text-align: center;
+    align-self: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #636363;
+    display: flex;
+    border: 1px solid #636363;
+    border-radius: 45px;
+    margin: 30px auto;
+    box-shadow: 0px 1px 9px 0px #e6e6e6;
+    cursor: pointer;
+}
+.subscribeButton:hover, .subscribeButton:focus, .subscribeButton:active{
+    border: 1px solid #5A70D8;
+    box-shadow: 0px 1px 9px 0px #e4d8ff;
+    color: #5A70D8;
+}
