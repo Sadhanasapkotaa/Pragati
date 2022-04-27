@@ -25,8 +25,8 @@
         
         <form method="post" action="/Pragati/createAccount" class="form" id="form">  
             <input type="text" id="fullname" name="fullname" placeholder="Your Name:"/> <br/>
-            <input type="text" id="username" name="username" placeholder="Your Username:"/> <br/>
             <input type="email" id="email" name="email" placeholder="Your E-mail:"/> <br/>
+            <input type="text" id="address" name="address" placeholder="Address:"/> <br/>
             <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Your Phone Number:"/> <br/>
             <input type="password" id="password" name="password" placeholder="Your Password:"/> <br/>   
             <input type="text" id="coupon" name="coupon" placeholder="COUPON (Optional):"/> <br/>
