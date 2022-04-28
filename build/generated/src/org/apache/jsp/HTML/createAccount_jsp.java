@@ -65,10 +65,10 @@ public final class createAccount_jsp extends org.apache.jasper.runtime.HttpJspBa
       out.write("        <form method=\"post\" action=\"/Pragati/createAccount\" class=\"form\" id=\"form\">  \n");
       out.write("            <input type=\"text\" id=\"fullname\" name=\"fullname\" placeholder=\"Your Name:\"/> <br/>\n");
       out.write("            <input type=\"text\" id=\"username\" name=\"username\" placeholder=\"Your Username:\"/> <br/>\n");
-      out.write("            <input type=\"email\" id=\"e-mail\" name=\"e-mail\" placeholder=\"Your E-mail:\"/> <br/>\n");
+      out.write("            <input type=\"email\" id=\"email\" name=\"email\" placeholder=\"Your E-mail:\"/> <br/>\n");
       out.write("            <input type=\"text\" id=\"phoneNumber\" name=\"phoneNumber\" placeholder=\"Your Phone Number:\"/> <br/>\n");
       out.write("            <input type=\"password\" id=\"password\" name=\"password\" placeholder=\"Your Password:\"/> <br/>   \n");
-      out.write("            <input type=\"text\" id=\"username\" name=\"username\" placeholder=\"COUPON (Optional):\"/> <br/>\n");
+      out.write("            <input type=\"text\" id=\"coupon\" name=\"coupon\" placeholder=\"COUPON (Optional):\"/> <br/>\n");
       out.write("\n");
       out.write("            <button type=\"submit\" class=\"mainButton\">continue</button>\n");
       out.write("         </form>\n");
