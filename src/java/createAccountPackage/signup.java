@@ -6,12 +6,7 @@
 package createAccountPackage;
 
 import java.io.IOException;
-import java.sql.Connection;
 import java.io.PrintWriter;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.Statement;
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -20,10 +15,10 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author ayush
+ * @author Dell
  */
-@WebServlet("/createAccount")
-public class createAccount extends HttpServlet {
+@WebServlet(name = "signup", urlPatterns = {"/signup"})
+public class signup extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -38,7 +33,16 @@ public class createAccount extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
-            
+            /* TODO output your page here. You may use following sample code. */
+            out.println("<!DOCTYPE html>");
+            out.println("<html>");
+            out.println("<head>");
+            out.println("<title>Servlet signup</title>");            
+            out.println("</head>");
+            out.println("<body>");
+            out.println("<h1>Servlet signup at " + request.getContextPath() + "</h1>");
+            out.println("</body>");
+            out.println("</html>");
         }
     }
 
@@ -68,31 +72,7 @@ public class createAccount extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-//        processRequest(request, response);
-        PrintWriter out = response.getWriter();
-        
-        
-        String id = request.getParameter("Id");
-        String fullname = request.getParameter("fullname");        
-        String email = request.getParameter("email");
-        String phoneNumber = request.getParameter("phoneNumber");
-        String address = request.getParameter("address");
-        String password = request.getParameter("password");
-        String coupon = request.getParameter("coupon");
-        
-         try { 
-                    Class.forName("com.mysql.cj.jdbc.Driver");
-                    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/pragati", "root", "");
-                    Statement stmt=con.createStatement(); 
-                    stmt.execute("insert into children values  ('"+id+"','"+fullname+"','"+email+"','"+phoneNumber+"','"+address+"','"+password+"','"+coupon+"')");
-                    con.close();
-                    
-                    
-                    
-                     response.sendRedirect("dashboard.jsp");
-                }catch (Exception e) {
-                     System.out.println(e);
-                     }           
+        processRequest(request, response);
     }
 
     /**
@@ -104,5 +84,5 @@ public class createAccount extends HttpServlet {
     public String getServletInfo() {
         return "Short description";
     }// </editor-fold>
-    
+
 }

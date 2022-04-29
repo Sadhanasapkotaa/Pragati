@@ -18,12 +18,13 @@
 </head>
 <body>
 
-    <div class="logo"></div>
+    <div class="logo"></div> 
 
     <div class="Container1">
         <h1 class="Heading">Welcome Back Sathi!</h1>
         
-        <form method="post" action="/Pragati/createAccount" class="form" id="form">  
+        <form method="post" action="/Pragati/create" class="form" id="form">  
+            <input type="number" id="id" name="Id" placeholder="Your Id:"/> <br/>
             <input type="text" id="fullname" name="fullname" placeholder="Your Name:"/> <br/>
             <input type="text" id="username" name="username" placeholder="Your Username:"/> <br/>
             <input type="email" id="email" name="email" placeholder="Your E-mail:"/> <br/>
@@ -43,11 +44,11 @@
             <div class="icon" id="icon2" style="background-image: url('../ASSETS/loginPage/Frame\ 16.svg');">
 
             </div>
-            <div class="icon" id="icon3" style="background-image: url('../ASSETS/loginPage/Frame\ 17.svg');">
+            <div class="icon" id="icon3" style="background-image: url('../ASSETS/loginPage/Farame\ 17.svg');">
 
             </div>
         </div>
-
+         
          <p class="createAccount">Already have an account? .</p><a href="#ForgotPassword.html"><h5>Login Here</h5></a>
          <div class="spacing"></div>
     </div>

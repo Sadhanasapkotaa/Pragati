@@ -6,24 +6,23 @@
 package createAccountPackage;
 
 import java.io.IOException;
-import java.sql.Connection;
 import java.io.PrintWriter;
+import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.PreparedStatement;
 import java.sql.Statement;
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import static jdk.nashorn.internal.runtime.Debug.id;
 
 /**
  *
- * @author ayush
+ * @author Dell
  */
-@WebServlet("/createAccount")
-public class createAccount extends HttpServlet {
+@WebServlet(name = "create", urlPatterns = {"/create"})
+public class create extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -37,9 +36,7 @@ public class createAccount extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        try (PrintWriter out = response.getWriter()) {
-            
-        }
+        
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
@@ -68,10 +65,7 @@ public class createAccount extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-//        processRequest(request, response);
-        PrintWriter out = response.getWriter();
-        
-        
+        processRequest(request, response);
         String id = request.getParameter("Id");
         String fullname = request.getParameter("fullname");        
         String email = request.getParameter("email");
@@ -89,10 +83,10 @@ public class createAccount extends HttpServlet {
                     
                     
                     
-                     response.sendRedirect("dashboard.jsp");
+                     response.sendRedirect("/Pragati/newjsp.jsp");
                 }catch (Exception e) {
                      System.out.println(e);
-                     }           
+                 }
     }
 
     /**
@@ -104,5 +98,5 @@ public class createAccount extends HttpServlet {
     public String getServletInfo() {
         return "Short description";
     }// </editor-fold>
-    
+
 }

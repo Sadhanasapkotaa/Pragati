@@ -5,17 +5,21 @@
         <servlet-class>createAccountPackage.createAccount</servlet-class>
     </servlet>
     <servlet>
+        <servlet-name>create</servlet-name>
+        <servlet-class>createAccountPackage.create</servlet-class>
+    </servlet>
+<!--    <servlet>
         <servlet-name>NewServlet</servlet-name>
         <servlet-class>createAccountPackage.NewServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
+    </servlet>-->
+<!--    <servlet-mapping>
         <servlet-name>createAccount</servlet-name>
         <url-pattern>/createAccount</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
+    </servlet-mapping>-->
+<!--    <servlet-mapping>
         <servlet-name>NewServlet</servlet-name>
         <url-pattern>/NewServlet</url-pattern>
-    </servlet-mapping>
+    </servlet-mapping>-->
     <session-config>
         <session-timeout>
             30
