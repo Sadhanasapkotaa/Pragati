@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url('../ASSETS/loginPage/Background.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    /* align-self: right; */
+    overflow: visible;
+}
+/* ************************* NAV SECTION BEGINS ************************* */
+.logo {
+    height: 50px;
+    width: 175px;
+    margin: 25px 0px 25px 150px;
+    background-image: url(../ASSETS/Website/PragatiHeaderLogo.svg);
+    background-repeat: no-repeat;  
+}
+.mainButton {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    background-color:#5113e0;
+    padding: 10px 150px;
+    width: 390px;
+    text-align: justify;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    border-radius: 10px;
+    margin: 20px 0px 0px 75px;
+    cursor: pointer;
+}
+.mainButton:hover, .mainButton:focus, .mainButton:active{
+    box-shadow: 0px 1px 9px 0px #cbbbf0;
+    background-color:#6B2FF7;
+}
+.Container1{
+    margin: 0px 50px;
+    background-color: none;
+    height: 550px;
+    border-radius: 36px;
+    position: fixed;
+    width: 92%;
+    overflow: visible;
+    position: inherit;
+}
+.Heading{
+    font-size: 36px;
+    font-style: bold;
+    color: #6B2FF7;
+    text-align: left;
+    margin: 55px 0px 40px 45px;
+}
+input{
+    height: 18px;
+    width: 360px;
+    border: 1px solid lightgrey;
+    border-radius: 9px;
+    box-shadow: 0px 0px 9px #e7e7e7;
+    margin: 10px 0px 8px 75px;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+/* .form {
+    color: #636363;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 20px 20px 20px;
+    display: ;
+} */
+::placeholder{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.H5Forgot{
+    margin: 0px 0px 45px 345px;
+}
+.createAccount{
+    color: #363636;
+    display: inline;
+    margin: 0px 0px 0px 136px;
+    font-size: 0.83em;
+    float: left;
+    text-decoration: none;
+}
+.H5Create{
+    /* color: #363636; */
+    display: inline;
+    /* float: right; */
+}
+.Or{
+    color: #363636;
+    margin: 27px 0px 0px 220px;
+    font-size: 0.90em;
+}
+.loginIcons{
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 325px;
+    /* background-color: aqua; */
+    margin: 0px 0px 10px 110px;
+}
+.icon {
+    height: 45px;
+    width: 72px;
+    border: 1px solid #C4C4C4;
+    background-color: #FFFDF5;
+    border-radius: 7px;
+    box-shadow: 0px 1px 9px 0px #dddddd;
+}
+/* .spacing {
+    width: 100%;
+    height: 250px;
+    background-color: blue;
+} */

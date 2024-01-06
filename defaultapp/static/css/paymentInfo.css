@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+nav {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    height: 50px;
+    width: 175px;
+    margin: 25px 0px 25px 150px;
+    background-image: url(../ASSETS/Website/PragatiHeaderLogo.svg);
+    background-repeat: no-repeat;   
+}
+.spacing{
+    height: 100px;
+    background-color: ffffff;
+    width: 100%;
+}
+.spacing2{
+    height: 10px;
+    background-color: ffffff;
+    width: 100%;
+}
+.Container1{
+    margin: 0px auto;
+    width: 1100px;
+    background-image: url('../ASSETS/Subscription/SubscriptionBackgroundBlob.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 530px;
+    border-radius: 36px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.HeaderText{
+    color: #636363;
+    text-align: center;
+    display: inline;
+    margin: 36px auto;
+    height: 50px;
+    font-weight: 500;
+    font-family: 'Poppins Medium';
+    font-size: 40px;
+}
+.iconContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 750px;
+    height: 350px;
+    background-color: white;
+    margin: 0px auto;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 36px;
+    box-shadow: 1px 1px 9px #e6e6e6;
+    opacity: 97%;
+}
+.mainButton {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    background-color:#5A70D8;
+    padding: 10px 150px;
+    width: 390px;
+    text-align: justify;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    border-radius: 10px;
+    margin: 20px 0px 0px 0px;
+    stroke: none;
+    cursor: pointer;
+}
+.mainButton:hover, .mainButton:focus, .mainButton:active{
+    box-shadow: 0px 1px 9px 0px #cbbbf0;
+    background-color:#3556f8;
+    stroke: none;
+}
+input{
+    height: 18px;
+    width: 360px;
+    border: 1px solid lightgrey;
+    border-radius: 9px;
+    box-shadow: 0px 0px 9px #e7e7e7;
+    margin: 10px auto;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+::placeholder{
+    font-family: 'Poppins', sans-serif;
+}
+datalist {
+    display:flow-root;
+  }

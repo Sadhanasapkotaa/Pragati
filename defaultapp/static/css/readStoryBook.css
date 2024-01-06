@@ -1,0 +1,249 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: aqua; */
+    background-image: url(../ASSETS/Reading\ Page/ReadStoryBg.svg);
+}
+
+/* ************************* NAV SECTION BEGINS ************************* */
+nav {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    box-shadow: 0px 1px 18px 0px #e6e6e6;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+  }
+  
+  .logo {
+    height: 50px;
+    width: 175px;
+    margin: 25px 0px 25px 120px;
+    background-image: url(../ASSETS/Website/PragatiHeaderLogo.svg);
+    background-repeat: no-repeat;
+  }
+  
+  .Navbar {
+    height: 70px;
+    width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: space-evenly;
+    justify-content: space-evenly;
+    margin-right: 90px;
+  }
+  
+  .navItems {
+    height: 70px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+  }
+  
+
+.icon {
+  height: 36px;
+  width: 36px;
+  /* background-color: yellowgreen; */
+  border: 1px solid white;
+  border-radius: 50px;
+}
+
+/* ICON ONE */
+
+#icon1{
+  background-image: url('../ASSETS/Dashboard/ReadColorIcon.svg');
+}
+#icon1:hover, #icon1:active, #icon1:focus {
+  border: 1px solid blue;
+  box-shadow: 0px 1px 18px 0px #d7c5ff;
+
+}
+
+/* ICON TWO */
+#icon2{
+  background-image: url('../ASSETS/Dashboard/PlayColorIcon.svg');
+}
+#icon2:hover, #icon2:active, #icon2:focus {
+  border: 1px solid rgb(255, 188, 17);
+  box-shadow: 0px 1px 18px 0px #fff56a;
+}
+
+/* ICON THREE */
+#icon3{
+  background-image: url('../ASSETS/Dashboard/ListenColorIcon.svg');
+}
+#icon3:hover, #icon3:active, #icon3:focus {
+  border: 1px solid rgb(74, 206, 206);
+  box-shadow: 0px 1px 18px 0px #c5fff1;
+
+}
+
+/* ICON FOUR */
+#icon4{
+  background-image: url('../ASSETS/Dashboard/WatchColorIcon.svg');
+}
+#icon4:hover, #icon4:active, #icon4:focus {
+  border: 1px solid red;
+  box-shadow: 0px 1px 18px 0px #fcbbbb;
+}
+
+/* ICON FIVE */
+#icon5{
+  background-image: url('../ASSETS/Dashboard/ProfileColorIcon.svg');
+}
+#icon5:hover, #icon5:active, #icon5:focus {
+  border: 1px solid rgb(255, 143, 162);
+  box-shadow: 0px 1px 18px 0px #ffc5e9;
+} 
+  .iconText {
+    font-size: 12px;
+    font-weight: medium;
+    margin-top: 5px;
+    color: #636363;
+    text-decoration: none;
+  }
+  
+  /* ************************* NAV SECTION ENDS ************************* */
+  .spacing{
+    height: 130px;
+    background-color: ffffff;
+    width: 100%;
+}
+
+  .spacing2{
+    height: 70px;
+    background-color: ffffff;
+    width: 100%;
+}
+
+  .breadcrumbs {
+    margin-left: 130px;
+  }
+
+  .titleText {
+    margin-left: 500px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 25px;
+    color: #4d4d4d;
+  }
+
+/* ************************* FIRST SECTION BEGINS ************************* */
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 700px;
+  position: relative;
+  margin: auto;
+}
+
+/* oHide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 9px;
+  width: 9px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.linkerr{
+  text-decoration: none;
+}
+
+.image{
+  border-radius: 20px;
+  width: 1000px;
+  height: 450px;
+}

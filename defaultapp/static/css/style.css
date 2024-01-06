@@ -1,0 +1,427 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ************************* NAV SECTION BEGINS ************************* */
+nav {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    box-shadow: 0px 1px 18px 0px #e6e6e6;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    width: 175px;
+    margin: 25px 0px 25px 150px;
+    background-image: url(../ASSETS/Website/PragatiHeaderLogo.svg);
+    background-repeat: no-repeat;
+}
+
+.loginButton {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 30px;
+    width: auto;
+    text-align: center;
+    align-self: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #363636;
+    display: flex;
+    border: 1px solid #363636;
+    border-radius: 45px;
+    margin: 25px 150px 25px 0px;
+    box-shadow: 0px 1px 9px 0px #e6e6e6;
+}
+
+.loginButton:hover,
+.loginButton:focus,
+.loginButton:active {
+    border: 1px solid #5113e0;
+    box-shadow: 0px 1px 9px 0px #e4d8ff;
+    color: #5113e0;
+}
+
+/* ************************* NAV SECTION ENDS ************************* */
+/* ************************* FIRST SECTION BEGINS ************************* */
+
+.spacing {
+    height: 120px;
+    background-color: ffffff;
+    width: 100%;
+}
+
+.spacing2 {
+    height: 100px;
+    background-color: ffffff;
+    width: 100%;
+}
+
+.Container1 {
+    margin: 0px 50px;
+    background-color: #FFFEF2;
+    height: 500px;
+    border-radius: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textContainer1 {
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    background-color: none;
+    margin: 0px 0px 0px 100px;
+    justify-content: space-between;
+    /* align-items: center; */
+    color: #363636;
+}
+
+.mainButton {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #5113e0;
+    padding: 10px 30px;
+    width: 110px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    border-radius: 45px;
+}
+
+.mainButton:hover,
+.mainButton:focus,
+.mainButton:active {
+    box-shadow: 0px 1px 9px 0px #cbbbf0;
+    background-color: #6B2FF7;
+}
+
+
+.iconContainer1 {
+    display: flex;
+    flex-direction: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 450px;
+    background-color: #FFFEF2;
+    margin: 0px 0px 0px 0px;
+    justify-content: safe;
+    align-items: center;
+}
+
+.item {
+    height: 120px;
+    width: 120px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+#iconBox7 {
+    width: 240px;
+    align-self: left;
+}
+
+/************************** FIRST SECTION ENDS ************************* */
+
+
+
+/************************** ACTIVITY SECTION BEGINS ************************* */
+.activitiesH1 {
+    font-size: 36px;
+    font-style: bold;
+    color: #363636;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.activityFlex {
+    margin: 0px auto;
+    background-color: #FFFFFF;
+    height: 500px;
+    width: 810px;
+    display: flex;
+    flex-direction: auto;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.mainIconBox {
+    align-items: center;
+    justify-content: center;
+}
+
+.iconBox {
+    height: 100px;
+    width: 100px;
+    margin: 30px 50px;
+    border-radius: 15px;
+    border: 1px solid lightslategray;
+    box-shadow: 1px 1px 9px #e6e6e6;
+    background-color: #FFFFFF;
+}
+
+/************************** ACTIVITY SECTION ENDS ************************* */
+
+/* ************************* THIRD SECTION BEGINS ************************* */
+
+.Container3 {
+    margin: 0px 50px;
+    background-color: #fff7fa;
+    height: 500px;
+    border-radius: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imageContainer1 {
+    /* background-color: aqua; */
+    background-image: url('../ASSETS/Website/Master.svg');
+    width: 600px;
+    height: 400px;
+    margin: 0px 50px 0px 50px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 18px #ffc8df;
+
+}
+
+/* ************************* THIRD SECTION ENDS ************************* */
+
+/* ************************* FOURTH SECTION BEGINS ************************* */
+
+.reviewFlex {
+    height: 600px;
+    width: 900px;
+    background-color: white;
+    display: flex;
+    flex-direction: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.reviewBox {
+    background-color: #FFFEF2;
+    box-shadow: 1px 1px 9px #fff3f0;
+    border-radius: 20px;
+    border: 0.5px solid #ffd3c8;
+    color: #363636;
+    /* padding: 45px; */
+}
+
+#reviewBox1 {
+    height: 550px;
+    width: 340px;
+    margin: 0px 0px 0px 0px;
+}
+
+.reviewmomma {
+    height: 550px;
+    width: 340px;
+    margin: 20px;
+}
+
+.star {
+    height: 50px;
+    width: auto;
+    margin: 45px 45px 20px 45px;
+    background-image: url('../ASSETS/Website/StarReview.svg');
+    background-repeat: no-repeat;
+}
+
+.reviewContent {
+    margin: 0px 45px 45px 45px;
+}
+
+.parent {
+    margin: 0px 45px 45px 45px;
+}
+
+.image {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 100px;
+    float: left;
+    margin-right: 25px;
+}
+
+#reviewBox2 {
+    height: 350px;
+    width: 340px;
+    margin-bottom: 20px;
+
+}
+
+#reviewBox3 {
+    height: 350px;
+    width: 340px;
+}
+
+footer {
+    height: 550px;
+    width: 100%;
+    background-image: url('../ASSETS/Website/Footer-01.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.adminLogin {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #32a83c;
+    padding: 10px 20px;
+    width: 144px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    border-radius: 12px;
+    margin: 20px 0px 0px 100px;
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+}
+
+.adminLogin:hover,
+.adminLogin:focus,
+.adminLogin:active {
+    background-color: #169c21;
+}
+
+/* ************************* FOURTH SECTION ENDS ************************* */
+
+@media screen and (max-width: 900px) {
+    .Container1 {
+        flex-direction: column;
+        height: auto;
+        /* padding: 10px; */
+        background-color: #FFFEF2;
+    }
+
+    .textContainer1 {
+        flex-direction: column;
+        width: 300px;
+        height: auto;
+        margin: auto;
+        flex-wrap: nowrap;
+        background-color: #FFFEF2;
+    }
+
+    .iconContainer1 {
+        flex-direction: auto;
+        width: 300px;
+        height: auto;
+        align-items: auto;
+        margin: 50px;
+        background-color: #FFFEF2;
+    }
+
+    .item {
+        margin: 10px 10px;
+    }
+
+    .Container3 {
+        flex-direction: column;
+        height: auto;
+        /* padding: 10px; */
+        background-color: #FFFEF2;
+    }
+
+    .imageContainer1 {
+        height: 300px;
+        width: 300px;
+        align-self: center;
+        margin: 50px 0px;
+    }
+
+    .activityFlex {
+        flex-direction: auto;
+        width: auto;
+        height: auto;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .reviewFlex {
+        height: auto;
+        width: auto;
+        background-color: white;
+        display: flex;
+        flex-direction: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .reviewBox {
+        background-color: #FFFEF2;
+        box-shadow: 1px 1px 9px #e6e6e6;
+    }
+
+    #reviewBox1 {
+        height: 550px;
+        width: 340px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .reviewmomma {
+        height: auto;
+        width: auto;
+    }
+
+    footer {
+        height: 500px;
+        width: 100%;
+        background-image: url('../ASSETS/Website/Footer-01.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+    }
+}
+
+/* FOR CONTAINER: 
+
+    height: ;
+    width: ;
+    background-color: ;
+    display: ;
+    flex-direction: ; 
+    flex-wrap: ;
+    justify-content: ;
+    align-items: ;
+
+    */
+
+/* FOR ITEM: 
+ 
+    height: ;
+    width: ;
+    order: ;
+    flex-grow: ;
+    justify-content: ;
+    align-items: ; */
