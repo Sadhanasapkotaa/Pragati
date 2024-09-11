@@ -1,2 +1,0 @@
-# Pragati
-Education application
