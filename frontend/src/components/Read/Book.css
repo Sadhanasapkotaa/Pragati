@@ -1,0 +1,33 @@
+.book {
+  transform-style: preserve-3d;
+  transition: transform 0.6s ease;
+}
+
+.book .page {
+  backface-visibility: hidden;
+  transform: rotateY(0deg);
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.book.flip-forward .page.right {
+  transform-origin: left;
+  transform: rotateY(-270deg); 
+  transition: transform 0.5s ease;
+  opacity: 0.7;
+  z-index: 10;
+}
+
+.book.flip-backward .page.left {
+  transform-origin: right;
+  transform: rotateY(270deg); 
+  transition: transform 0.5s ease;
+  opacity: 0.7;
+  z-index: 10;
+}
+
+.book .page.right {
+  /* z-index: 0; */
+}  

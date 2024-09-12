@@ -5,13 +5,7 @@ const Layout = () => {
   
     return (
         <>
-        {/* <Navbar/> */}
-       
-    
-       {/* <BookList/> */}
        <PictureBook/>
-       
-        {/* <Footer /> */}
         </>
     );
 }
