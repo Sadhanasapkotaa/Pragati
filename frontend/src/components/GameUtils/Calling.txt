@@ -1,0 +1,16 @@
+QUIZ MODULE
+
+// const question = 'What is the capital of France?';
+  // const correctAnswer = { text: 'Paris', imageSrc: '', altText: '' };
+  // const options = [
+  //   { text: 'Berlin', imageSrc: '', altText: '' },
+  //   { text: 'Paris', imageSrc: '', altText: '' },
+  //   { text: 'Madrid', imageSrc:'https://images.unsplash.com/photo-1721332149112-c54e68990d99?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8', altText: 'A famous monument in Madrid' },
+  //   { text: 'Rome', imageSrc: 'rome-image-url.jpg', altText: 'The Colosseum in Rome' },
+  // ];
+
+  {/* <ImageQuiz
+        question={question}
+        correctAnswer={correctAnswer}
+        options={options}
+      /> */}

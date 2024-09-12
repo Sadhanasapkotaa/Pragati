@@ -1,0 +1,28 @@
+{
+    "name": "Python 3 & PostgreSQL",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/workspace",
+    "forwardPorts": [8000, 5432],
+    "extensions": [
+        "ms-python.python",
+        "mtxr.sqltools",
+        "mtxr.sqltools-driver-pg"
+    ],
+    "settings": {
+        "sqltools.connections": [{
+            "name": "Container database",
+            "driver": "PostgreSQL",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "database": "pragati_db",
+            "username": "postgres",
+            "password": "root"
+        }],
+        "python.pythonPath": "/usr/local/bin/python"
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/node:1": {}
+    }
+}
